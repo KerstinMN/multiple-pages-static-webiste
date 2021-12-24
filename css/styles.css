@@ -1,5 +1,7 @@
 body {
   background: #f8e8a6;
+  display: block;
+  margin: 8px;
 }
 
 h1 {
@@ -8,4 +10,22 @@ h1 {
 
 a {
   color: white;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.croissant-image {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+.footer {
+  text-align: center;
 }
